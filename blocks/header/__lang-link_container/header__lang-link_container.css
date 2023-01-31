@@ -1,0 +1,6 @@
+.header__lang-link_container {
+display: flex;
+column-gap: 18px;
+margin-left: auto;
+margin-top: 10px;
+}

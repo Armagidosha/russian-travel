@@ -1,0 +1,12 @@
+.place__main-text {
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+}
+
+@media (max-width: 320px) {
+  .place__main-text {
+    max-width: calc(100% - 32px);
+    margin: 0 auto;
+  }
+}
