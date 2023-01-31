@@ -6,11 +6,11 @@
   color: white;
   text-decoration: none;
   align-self: flex-end;
-  transition: .65s ease-in;
+  transition: .60s ease-in;
 }
 
 .header__lang-link:hover {
-  opacity: 0.3;
+  opacity: .60;
 }
 
 @media (max-width: 768px) {

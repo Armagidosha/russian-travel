@@ -14,7 +14,7 @@
   
 }
 
-@media (min-width: 444px) and (max-width: 768px) {
+@media (max-width: 768px) {
   .lead__caption {
     margin-left: 24px;
   } 

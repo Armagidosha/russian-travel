@@ -4,11 +4,11 @@
   line-height: 18px;
   color: white;
   text-decoration-line: none;
-  transition: 0.60s linear;
+  transition: .60s linear;
 }
 
 .footer__link:hover {
-  opacity: 0.3;
+  opacity: .60;
 }
 
 @media (max-width: 440px) {

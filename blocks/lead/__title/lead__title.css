@@ -8,7 +8,7 @@
   text-align: center;
 }
 
-@media (min-width: 321px) and (max-width: 768px) {
+@media (max-width: 768px) {
   .lead__title {
     font-size: 12vw;
     line-height: 12vw;
