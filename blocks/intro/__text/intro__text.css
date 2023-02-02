@@ -1,10 +1,10 @@
 .intro__text {
   font-size: 16px;
   font-weight: 400;
-  line-height: 26px;
-  color: white;
+  line-height: 1.63;
   max-width: 690px;
-  margin-bottom: 33px;
+  margin: 40px 0 33px;
+  color: white;
 }
 
 @media (max-width: 768px) {

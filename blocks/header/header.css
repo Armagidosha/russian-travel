@@ -1,23 +1,17 @@
 .header {
   display: flex;
   align-items: center;
-  justify-content: start;
+  justify-content: space-between;
   margin: 28px auto 0;
-  min-height: 52px;
+  max-height: 52px;
   
 }
 
-@media screen and (min-width: 1024px) {
+@media (min-width: 768px) {
   .header {
     max-width: 1184px;
     width: calc(100% - 96px);
 
-  }
-}
-
-@media (max-width: 1023px) {
-  .header {
-  max-width: calc(100% - 96px);
   }
 }
 
@@ -30,7 +24,7 @@
 @media (max-width: 320px) {
   .header {
     margin-top: 16px;
-    height: 42px;
+    max-height: 42px;
     max-width: calc(100% - 32px);
   }
 }

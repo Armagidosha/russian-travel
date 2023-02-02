@@ -4,7 +4,7 @@
   font-weight: 400;
   letter-spacing: 0.15em;
   color: white;
-  margin-top: 8px;
+  margin: 8px 0 0;
 }
 
 @media screen and (max-width: 1024px) {

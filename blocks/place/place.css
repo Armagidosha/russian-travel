@@ -1,10 +1,10 @@
 .place {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(460px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   grid-gap: 40px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 876px) {
   .place {
     grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
     grid-gap: 48px 28px;

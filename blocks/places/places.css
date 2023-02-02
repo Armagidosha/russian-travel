@@ -15,10 +15,10 @@
 @media (max-width: 768px) {
   .places {
     max-width: calc(100% - 48px);
-    row-gap: 72px;
+    row-gap: 73px;
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 420px) {
   .places {
     max-width: 100%;
     row-gap: 50px;
