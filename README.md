@@ -19,4 +19,4 @@
 
 **Github Pages**
 
-*[Ссылка на страничку github pages](https://armagidosha.github.io/russian-travel/)
+* [Ссылка на страничку github pages](https://armagidosha.github.io/russian-travel/)
