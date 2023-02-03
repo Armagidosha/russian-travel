@@ -16,3 +16,7 @@
 **Github**
 
 * [Ссылка на github проект](https://github.com/Armagidosha/russian-travel.git)
+
+**Github Pages**
+
+*[Ссылка на страничку github pages](https://armagidosha.github.io/russian-travel/)
