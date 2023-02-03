@@ -3,8 +3,6 @@
   align-items: center;
   justify-content: space-between;
   margin: 28px auto 0;
-  max-height: 52px;
-  
 }
 
 @media (min-width: 768px) {
@@ -24,7 +22,6 @@
 @media (max-width: 320px) {
   .header {
     margin-top: 16px;
-    max-height: 42px;
     max-width: calc(100% - 32px);
   }
 }

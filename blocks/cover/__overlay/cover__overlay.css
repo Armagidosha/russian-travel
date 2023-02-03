@@ -8,10 +8,9 @@
   text-decoration: none;
   position: relative;
   width: 100%;
-  max-height: 740px;
+  min-height: 740px;
   z-index: 20;
 }
-
 
 .cover__overlay::before {
   position: absolute;
@@ -28,14 +27,33 @@
   opacity: 0.8;
 }
 
-@media (min-width: 0) {
+@media (max-width: 1024px) {
   .cover__overlay {
-    height: calc(100vw / 8 * 5);
+    min-height: 640px;
   }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 800px) {
   .cover__overlay {
+    min-height: 580px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cover__overlay {
+    min-height: 480px;
+  }
+}
+
+@media (max-width: 600px) {
+  .cover__overlay {
+    min-height: 350px;
+  }
+}
+
+@media (max-width: 460px) {
+  .cover__overlay {
+    min-height: 200px;
     row-gap: 16px;
   }
 }
