@@ -1,8 +1,14 @@
 .header__lang-links {
-  margin: 0 0 5px;
+  margin: 0 0 6px;
   display: flex;
   column-gap: 18px;
   list-style: none;
   align-self: end;
   padding: 0;
+}
+
+@media (max-width: 420px) {
+  .header__lang-links {
+    margin: 0 0 8px;
+  }
 }
