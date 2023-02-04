@@ -15,3 +15,9 @@
     line-height: 1;
   }
 }
+
+@media (max-width: 420px) {
+  .place__url-heading {
+    margin-left: 16px;
+  }
+}
